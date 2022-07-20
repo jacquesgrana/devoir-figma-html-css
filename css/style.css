@@ -73,6 +73,10 @@ body {
     font-family: "Fira Sans Bold";
 }
 
+.rouge {
+    color: red;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -159,12 +163,17 @@ body {
     justify-content:center;
 }
 
+.ombre {
+    box-shadow: -10px 10px 15px 10px #e9e8e8;
+}
+
 .bloc_bas {
+    
     display: flex;
     flex-flow: column wrap;
     justify-content:space-between;
     width: 220px;
-    height: 440px;
+    height: 460px;
     border: 1px solid gray;
     border-radius: 110px 110px 20px 20px;
     margin-top: -10px;
@@ -173,34 +182,36 @@ body {
 }
 
 .bloc_bas:only-child {
-margin: -15px 0px;
+    margin: -15px 0px;
 }
 
 .pizza_bas {
     width: 200px;
-    padding-top: 5px;
+    padding-top: 0px;
+    filter: drop-shadow(-10px 10px 10px rgb(214, 214, 214));
     margin: auto;
 }
 
 .titre_bas {
     text-align: center;
-    font-size: 12pt;
+    font-size: 14pt;
     font-family: "Fira Sans Bold";
 }
 
 .texte_bas {
     text-align: center;
-    font-size: 5pt;
+    font-size: 8pt;
     font-family: "Fira Sans Light";
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .prix_bas {
     text-align: center;
-    font-size: 12pt;
+    font-size: 16pt;
     font-family: "Fira Sans Bold";
     color:green;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 22px;
 }
 
 .petit_bloc_bas {
