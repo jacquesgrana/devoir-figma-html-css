@@ -50,7 +50,7 @@ body {
     height: 350px;
     background-image: 
     linear-gradient(to right, rgb(255, 255, 255) 10%, rgba(100, 11, 11, 0) 50%),
-    url("img/margherita-pizza 2.jpg");
+    url("/img/margherita-pizza 2.jpg");
     background-repeat:no-repeat;
     background-attachment:center; 
     background-size: 500px 350px;
