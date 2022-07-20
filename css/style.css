@@ -38,6 +38,41 @@ body {
     border-radius: 30px;
 }
 
+#image_over_1 {
+    width: 260px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -6%;
+}
+
+#image_over_2 {
+    position: absolute;
+    width: 50px;
+    margin-top: -2%;
+    margin-left: 22%;
+}
+
+#image_over_3 {
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 39%;
+}
+
+#image_over_4 {
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 42%;
+    width: 240px;
+}
+
+#image_over_5 {
+    position: absolute;
+    width: 160px;
+    margin-top: 42%;
+    margin-left: -4%;
+    z-index: -1;
+}
+
 #image_de_droite {
     width: 500px;
     margin-left: 0px;
@@ -168,8 +203,11 @@ body {
     box-shadow: -10px 10px 15px 10px #e9e8e8;
 }
 
+.ombre_png {
+    filter: drop-shadow(-10px 10px 10px rgb(214, 214, 214));
+}
+
 .bloc_bas {
-    
     display: flex;
     flex-flow: column wrap;
     justify-content:space-between;
