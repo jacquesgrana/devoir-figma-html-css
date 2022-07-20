@@ -40,15 +40,31 @@ body {
 }
 
 #image_de_droite {
-
+   
     width: 500px;
     margin-left: 0px;
     margin-top: 0px;
     display: inline-block;
+}
 
+#div_photo_de_droite {
+    width: 500px;
+    height: 350px;
+    
+    
+    /*background:transparent;*/
+   /* background:linear-gradient(to right, rgb(117, 28, 28) 33%, rgba(100, 11, 11, 0) 75%);
+    background:transparent;*/
+    background-image: 
+    linear-gradient(to right, rgb(255, 255, 255) 10%, rgba(100, 11, 11, 0) 50%),
+    url("/img/margherita-pizza 2.jpg");
+    background-repeat:no-repeat;
+    background-attachment:center; 
+    background-size: 500px 350px;
 }
 
 #container_image_de_droite {
+    
     display: flex;
     justify-content: space-between;
     
